@@ -1,8 +1,9 @@
+
 struct User {
-    active: bool,
-    username: String,
-    email: String,
-    sign_in_count: u64,
+    pub active: bool,
+    pub username: String,
+    pub email: String,
+    pub sign_in_count: u64,
 }
 
 struct Color(u32, u32, u32);
