@@ -21,9 +21,9 @@ fn main() {
 
     println!("Next up we have tuple structs: ");
 
-    let blue = Color(3, 10, 2025);
+    let blue = Color(0, 0, 255);
 
+    println!("Color blue: {}, {}, {}", blue.0, blue.1, blue.2);
     
-    
-    
+
 }
